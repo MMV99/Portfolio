@@ -299,6 +299,12 @@ body {
     z-index: 100;
 }
 
+.home-content h3 a {
+    color: #00abf0; 
+}
+
+
+
 
 /* KEYFRAMES ANIMATION */
 @keyframes showRight {
