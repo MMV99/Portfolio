@@ -19,7 +19,7 @@ function resizeCanvas() {
 setInterval(function(){
 
   // adjust background color
-  c.fillStyle='rgba(0,0,0,0.05)';
+  c.fillStyle='rgba(0,0,0,0.02)';
   c.fillRect(0,0,w,h);
 
   //adjust ripple color
