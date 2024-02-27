@@ -17,9 +17,14 @@ function resizeCanvas() {
 }
 
 setInterval(function(){
+
+  // adjust background color
   c.fillStyle='rgba(0,0,0,0.05)';
   c.fillRect(0,0,w,h);
+
+  //adjust ripple color
   c.fillStyle='rgba(0,0,255,1)';
+
   p=p.map(function(v,i){
      r=m.random();
     var str = String.fromCharCode(m.floor(2720+r*33));
@@ -30,5 +35,6 @@ setInterval(function(){
   });
 },33);
 
+// adjust matrix to fit the screen
 window.addEventListener('resize', resizeCanvas);
 resizeCanvas(); 
