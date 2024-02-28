@@ -24,6 +24,7 @@ html, body {
     align-items: center;
     justify-content: space-between;
     z-index: 3;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo{
@@ -73,6 +74,7 @@ html, body {
 .content h1{
     font-size: 50px;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .content h2{
@@ -80,6 +82,7 @@ html, body {
     font-weight: 100;
     line-height: 25px;
     color: #00abf0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .content p{
@@ -87,6 +90,7 @@ html, body {
     font-weight: 100;
     line-height: 25px;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 .matrix-container {
