@@ -116,3 +116,38 @@ html, body {
     margin: 0 15px; /* Add spacing between icons */
     color: #00abf0;
 }
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100; /* Ensure popup is on top */
+    visibility: hidden; /* Initially hide the popup */
+  }
+  
+  .popup {
+    background-color: #0000003f;
+    padding: 40px; /* Increased padding for larger size */
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Applied the font */
+    color: #00abf0;  /* Set the text color */
+    font-size: 40px;
+  } 
+  
+  .close-btn {
+    background-color: #00abf0; 
+    color: #fff;
+    border: none;
+    padding: 25px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+  }

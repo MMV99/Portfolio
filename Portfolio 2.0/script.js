@@ -38,3 +38,14 @@ setInterval(function(){
 // adjust matrix to fit the screen
 window.addEventListener('resize', resizeCanvas);
 resizeCanvas(); 
+
+const popupContainer = document.querySelector('.popup-container');
+const closeBtn = document.querySelector('.close-btn');
+
+// Show the popup immediately
+popupContainer.style.visibility = 'visible';
+
+// Close popup on button click
+closeBtn.addEventListener('click', () => {
+  popupContainer.style.visibility = 'hidden';
+});
