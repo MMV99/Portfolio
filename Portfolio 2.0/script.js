@@ -13,7 +13,7 @@ function resizeCanvas() {
     p = Array(Math.ceil(w / 10)).join(1).split(''); 
 
     // Optional: Adjust font size
-    /*c.font = '12px monospace'; */
+    c.font = '12px monospace'; 
 }
 
 setInterval(function(){
