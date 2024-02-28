@@ -23,7 +23,7 @@ setInterval(function(){
   c.fillRect(0,0,w,h);
 
   //adjust ripple color
-  c.fillStyle='rgba(0,2555,0,1)';
+  c.fillStyle='rgba(0,255,0,1)';
 
   p=p.map(function(v,i){
      r=m.random();
