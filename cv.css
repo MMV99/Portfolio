@@ -107,40 +107,37 @@ html, body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
     width: 100%;
-    top: 50%;
-    margin-top: 470px;
-    transform: translateY(-50%);
+    height: 100vh; /* Full viewport height */
     text-align: center;
     color: #fff;
     z-index: 2;
     font-family: 'Poppins', sans-serif;
-    
+    margin: 0; /* Remove margin */
+    transform: none; /* Remove vertical translation */
+    top: auto; /* Reset top */
 }
 
-.container h1{
-    color:white;
+.container h1 {
+    color: white;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
 }
 
-.container h3{
+.container h3 {
     color: #00f014;
     font-family: 'Poppins', sans-serif;
 }
 
-.container p{
-    color:white;
+.container p {
+    color: white;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
-
-.text-section {
-    border: 2px solid #00acf000;
-    padding: 30px;
-    background-color: #ffffff00;
-    font-family: 'Poppins', sans-serif;
-} 
 
 /* Responsive Adjustment */
 @media (min-width: 768px) { /* Adjust breakpoint as needed */
